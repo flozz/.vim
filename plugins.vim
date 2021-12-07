@@ -21,6 +21,20 @@ Plug 'vim-airline/vim-airline', { 'do' : $HOME.'/.vim/fonts/install' }
 
 
 " ==============================================================================
+" Git
+" ==============================================================================
+
+" Vim plugin for Git
+Plug 'tpope/vim-fugitive'
+
+" Shows a git diff in the sign column
+Plug 'airblade/vim-gitgutter'
+
+" A plugin of NERDTree showing git status flags
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+
+" ==============================================================================
 
 call plug#end()
 
