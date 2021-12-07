@@ -16,6 +16,9 @@ Plug 'scrooloose/nerdtree'
 " making NERDTree feel like a true panel, independent of tabs
 Plug 'jistr/vim-nerdtree-tabs'
 
+" Lean & mean status/tabline for vim
+Plug 'vim-airline/vim-airline', { 'do' : $HOME.'/.vim/fonts/install' }
+
 
 " ==============================================================================
 
