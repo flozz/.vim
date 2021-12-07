@@ -95,3 +95,30 @@ inoremap <C-Z> <C-O>u
 " Ctrl+Y -> redo
 noremap <C-Y> <C-R>
 inoremap <C-Y> <C-O><C-R>
+
+
+" ==============================================================================
+" Custom mapping
+" ==============================================================================
+
+" Indent
+nmap <tab> >>
+nmap <s-tab> <<
+vmap <tab> >gv
+vmap <s-tab> <gv
+
+" PageUp/Down -> nop
+map <pageup> <nop>
+map <pagedown> <nop>
+imap <pageup> <nop>
+imap <pagedown> <nop>
+
+" Shift+PageUp/Down -> Buffer prev/next
+map <s-pageup> :bp<cr>
+map <s-pagedown> :bn<cr>
+imap <s-pageup> <esc>:bp<cr>i
+imap <s-pagedown> <esc>:bn<cr>i
+
+"Leader t -> new tab
+nnoremap <leader>t :tabnew<cr>
+
