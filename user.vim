@@ -2,9 +2,6 @@
 " Misc
 " ==============================================================================
 
-" Disalbe old Vi compatibility mode
-set nocompatible
-
 " Enamble modeline
 set modeline
 
@@ -39,6 +36,9 @@ if has("gui_running")
     set mousemodel=popup_setpos  " display contex menu on right click
     set guifont=Monospace\ 11
 endif
+
+" Display line number
+set number
 
 
 " ==============================================================================
@@ -119,6 +119,16 @@ map <s-pagedown> :bn<cr>
 imap <s-pageup> <esc>:bp<cr>i
 imap <s-pagedown> <esc>:bn<cr>i
 
-"Leader t -> new tab
+" Leader t -> new tab
 nnoremap <leader>t :tabnew<cr>
 
+
+" ==============================================================================
+" Language specific config and mapings
+" ==============================================================================
+
+" Text
+autocmd FileType markdown,text,rst setlocal list
+autocmd FileType markdown,text,rst nnoremap <buffer> <c-f> gqip
+autocmd FileType markdown,text,rst vnoremap <buffer> <c-f> gq
+autocmd FileType markdown,text,rst inoremap <buffer> <c-f> <esc>gqipA

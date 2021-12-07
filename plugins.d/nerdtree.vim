@@ -31,4 +31,3 @@ let g:NERDTreeShowHidden=1
 
 nnoremap <F12> :NERDTreeTabsToggle<cr>
 inoremap <F12> <esc>:NERDTreeTabsToggle<cr><c-w>la
-

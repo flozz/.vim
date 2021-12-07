@@ -19,6 +19,12 @@ Plug 'jistr/vim-nerdtree-tabs'
 " Lean & mean status/tabline for vim
 Plug 'vim-airline/vim-airline', { 'do' : $HOME.'/.vim/fonts/install' }
 
+" Plugin to toggle, display and navigate marks
+Plug 'kshenoy/vim-signature'
+
+" Ultimate hex editing system with Vim
+Plug 'Shougo/vinarise.vim'
+
 
 " ==============================================================================
 " Git
@@ -43,6 +49,48 @@ Plug 'sheerun/vim-polyglot'
 
 " A very fast, multi-syntax context-sensitive color name highlighter
 Plug 'ap/vim-css-color'
+
+
+" ==============================================================================
+" Language specific plugins
+" ==============================================================================
+
+" Node.js
+Plug 'moll/vim-node'
+
+" JavaScript / HTML / CSS
+Plug 'maksimr/vim-jsbeautify', { 'do' : 'git submodule update --init --recursive' }
+
+" Python
+Plug 'EgZvor/vim-black', { 'branch': 'main' }
+Plug 'Vimjas/vim-python-pep8-indent'
+
+" Vim
+Plug 'ynkdir/vim-vimlparser'
+Plug 'syngan/vim-vimlint'
+
+
+" ==============================================================================
+" Edition
+" ==============================================================================
+
+" Rethinking Vim as a tool for writing
+Plug 'reedes/vim-pencil'
+
+" Automatic table creator & formatter
+Plug 'dhruvasagar/vim-table-mode'
+
+" Comment functions so powerful
+Plug 'scrooloose/nerdcommenter'
+
+" True Sublime Text style multiple selections for Vim
+Plug 'terryma/vim-multiple-cursors'
+
+" surround.vim: Delete/change/add parentheses/quotes/XML-tags/much more with ease
+Plug 'tpope/vim-surround'
+
+" EditorConfig plugin for Vim
+Plug 'editorconfig/editorconfig-vim'
 
 
 " ==============================================================================
