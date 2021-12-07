@@ -6,6 +6,16 @@ call plug#begin($HOME."/.vim/plugins/")
 
 Plug 'flozz/gruvbox'
 
+" ==============================================================================
+" Misc
+" ==============================================================================
+
+" File system explorer for the Vim editor.
+Plug 'scrooloose/nerdtree'
+
+" making NERDTree feel like a true panel, independent of tabs
+Plug 'jistr/vim-nerdtree-tabs'
+
 
 " ==============================================================================
 
