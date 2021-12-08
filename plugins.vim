@@ -25,6 +25,9 @@ Plug 'kshenoy/vim-signature'
 " Ultimate hex editing system with Vim
 Plug 'Shougo/vinarise.vim'
 
+" Undo history visualizer for VIM (gundo replacement)
+Plug 'mbbill/undotree'
+
 
 " ==============================================================================
 " Git
