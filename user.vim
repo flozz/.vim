@@ -152,7 +152,7 @@ nmap <Leader>l :lopen<Cr>
 autocmd FileType markdown,text,rst setlocal list
 autocmd FileType markdown,text,rst nnoremap <buffer> <c-f> gqip
 autocmd FileType markdown,text,rst vnoremap <buffer> <c-f> gq
-autocmd FileType markdown,text,rst inoremap <buffer> <c-f> <esc>gqipA
+"autocmd FileType markdown,text,rst inoremap <buffer> <c-f> <esc>gqipA
 
 " json
 autocmd BufRead,BufNewFile .eslintrc setfiletype json

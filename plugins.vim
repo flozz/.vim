@@ -98,6 +98,9 @@ Plug 'tpope/vim-surround'
 " EditorConfig plugin for Vim
 Plug 'editorconfig/editorconfig-vim'
 
+" A code-completion engine for Vim
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
+
 
 " ==============================================================================
 
