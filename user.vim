@@ -61,6 +61,9 @@ set scrolloff=4
 " Strip trailing whitespaces when saving
 autocmd BufWritePre * %s/\s\+$//e
 
+" Disable blinking of matching pairs
+set matchtime=0
+
 
 " ==============================================================================
 " Windows-like mapping
