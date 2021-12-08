@@ -18,6 +18,9 @@ set showmatch!
 " Automatically set current dir to the one of the opened file
 set autochdir
 
+" Highlight search pattern matches
+set hlsearch
+
 
 " ==============================================================================
 " Theme / UI
@@ -128,6 +131,9 @@ imap <s-pagedown> <esc>:bn<cr>i
 " Leader t -> new tab
 nnoremap <leader>t :tabnew<cr>
 
+" Remove last search highlight
+nnoremap <C-l> :nohlsearch<CR><C-l>
+
 " Open location pannel
 nmap <Leader>l :lopen<Cr>
 
@@ -141,3 +147,7 @@ autocmd FileType markdown,text,rst setlocal list
 autocmd FileType markdown,text,rst nnoremap <buffer> <c-f> gqip
 autocmd FileType markdown,text,rst vnoremap <buffer> <c-f> gq
 autocmd FileType markdown,text,rst inoremap <buffer> <c-f> <esc>gqipA
+
+" json
+autocmd BufRead,BufNewFile .eslintrc setfiletype json
+autocmd BufRead,BufNewFile .jshintrc setfiletype json
