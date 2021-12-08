@@ -72,6 +72,9 @@ Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'ynkdir/vim-vimlparser'
 Plug 'syngan/vim-vimlint'
 
+" Multilanguage syntax checker
+Plug 'scrooloose/syntastic'
+
 
 " ==============================================================================
 " Edition

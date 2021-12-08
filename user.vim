@@ -128,6 +128,9 @@ imap <s-pagedown> <esc>:bn<cr>i
 " Leader t -> new tab
 nnoremap <leader>t :tabnew<cr>
 
+" Open location pannel
+nmap <Leader>l :lopen<Cr>
+
 
 " ==============================================================================
 " Language specific config and mapings
