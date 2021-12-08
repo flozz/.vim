@@ -17,7 +17,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 
 " Lean & mean status/tabline for vim
-Plug 'vim-airline/vim-airline', { 'do' : $HOME.'/.vim/fonts/install' }
+Plug 'vim-airline/vim-airline'
 
 " Plugin to toggle, display and navigate marks
 Plug 'kshenoy/vim-signature'
