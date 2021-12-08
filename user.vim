@@ -15,6 +15,9 @@ set directory=/tmp
 set selection=inclusive
 set showmatch!
 
+" Automatically set current dir to the one of the opened file
+set autochdir
+
 
 " ==============================================================================
 " Theme / UI
