@@ -55,8 +55,14 @@ set number
 set listchars=nbsp:¤,tab:❭─,trail:•
 set list!
 
+" Indent with spaces
+set expandtab
+
 " Number of space for a tab
 set tabstop=4
+
+" Length of indentation
+set shiftwidth=4
 
 " Disable line wrap
 set nowrap
