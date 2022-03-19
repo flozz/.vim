@@ -1,2 +1,2 @@
-vnoremap <c-space> <esc>:call NERDComment('x', 'toggle')<cr>gv
-nnoremap <c-space> <esc>:call NERDComment('n', 'toggle')<cr>
+vnoremap <c-space> <esc>:call nerdcommenter#Comment('x', 'toggle')<cr>gv
+nnoremap <c-space> <esc>:call nerdcommenter#Comment('n', 'toggle')<cr>
