@@ -60,6 +60,10 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " A very fast, multi-syntax context-sensitive color name highlighter
 Plug 'ap/vim-css-color'
 
+" Misc syntax plugin
+Plug 'chr4/nginx.vim'
+Plug 'hashivim/vim-terraform'
+
 
 " ==============================================================================
 " Language specific plugins
