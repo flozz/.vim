@@ -55,7 +55,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " ==============================================================================
 
 " A solid language pack for Vim.
-Plug 'sheerun/vim-polyglot'
+"Plug 'sheerun/vim-polyglot'
 
 " A very fast, multi-syntax context-sensitive color name highlighter
 Plug 'ap/vim-css-color'
