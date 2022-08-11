@@ -84,7 +84,8 @@ Plug 'ynkdir/vim-vimlparser'
 Plug 'syngan/vim-vimlint'
 
 " Multilanguage syntax checker
-Plug 'scrooloose/syntastic'
+"Plug 'scrooloose/syntastic'
+Plug 'dense-analysis/ale'
 
 
 " ==============================================================================
