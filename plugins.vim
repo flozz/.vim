@@ -76,7 +76,7 @@ Plug 'moll/vim-node'
 Plug 'maksimr/vim-jsbeautify', { 'do' : 'git submodule update --init --recursive' }
 
 " Python
-Plug 'EgZvor/vim-black', { 'branch': 'main' }
+Plug 'psf/black', { 'branch': 'main' }
 Plug 'Vimjas/vim-python-pep8-indent'
 
 " Vim
