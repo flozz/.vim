@@ -21,6 +21,9 @@ set autochdir
 " Highlight search pattern matches
 set hlsearch
 
+" Enable mouse support in terminal
+set mouse=a
+
 
 " ==============================================================================
 " Theme / UI
@@ -45,6 +48,17 @@ endif
 
 " Display line number
 set number
+
+" Change curosr shape depending of the current mode:
+" NORMAL      | Block     | 0 or 1: blink, 2: static
+" INSERT      | IBeam     | 5: blink, 6: static
+" REPLACEMENT | Underline | 3: blink, 4: static
+let &t_EI = "\<Esc>[1 q"
+let &t_SI = "\<Esc>[5 q"
+let &t_SR = "\<Esc>[3 q"
+
+" Remove timeout that slowdown VIM editing in CLI
+set ttimeoutlen=0
 
 
 " ==============================================================================
@@ -149,7 +163,8 @@ nmap <Leader>l :lopen<Cr>
 " ==============================================================================
 
 " Text
-autocmd FileType markdown,text,rst setlocal list
+autocmd FileType markdown,text,rst,gemtext setlocal list
+autocmd FileType markdown,text,rst,gemtext setlocal wrap linebreak
 autocmd FileType markdown,text,rst nnoremap <buffer> <c-f> gqip
 autocmd FileType markdown,text,rst vnoremap <buffer> <c-f> gq
 "autocmd FileType markdown,text,rst inoremap <buffer> <c-f> <esc>gqipA
