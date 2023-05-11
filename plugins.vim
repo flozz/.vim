@@ -27,7 +27,7 @@ Plug 'flozz/vim-nerdtree-tabs'
 Plug 'vim-airline/vim-airline'
 
 " Plugin to toggle, display and navigate marks
-Plug 'kshenoy/vim-signature'
+Plug 'jeetsukumaran/vim-markology'
 
 " Ultimate hex editing system with Vim
 Plug 'Shougo/vinarise.vim'
