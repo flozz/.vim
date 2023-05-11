@@ -21,7 +21,7 @@ Plug 'flozz/gruvbox'
 Plug 'scrooloose/nerdtree'
 
 " making NERDTree feel like a true panel, independent of tabs
-Plug 'jistr/vim-nerdtree-tabs'
+Plug 'flozz/vim-nerdtree-tabs'
 
 " Lean & mean status/tabline for vim
 Plug 'vim-airline/vim-airline'
