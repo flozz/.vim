@@ -5,5 +5,4 @@ let b:ale_fixers = {
     \ 'javascript': ['prettier', 'eslint']
     \}
 
-
 autocmd FileType javascript nnoremap <buffer> <c-s-f> :ALEFix<Cr>

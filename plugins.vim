@@ -64,6 +64,9 @@ Plug 'ap/vim-css-color'
 Plug 'chr4/nginx.vim'
 Plug 'hashivim/vim-terraform'
 
+" EJS / JST Syntax
+Plug 'briancollins/vim-jst'
+
 
 " ==============================================================================
 " Language specific plugins
