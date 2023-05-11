@@ -172,3 +172,14 @@ autocmd FileType markdown,text,rst vnoremap <buffer> <c-f> gq
 " json
 autocmd BufRead,BufNewFile .eslintrc setfiletype json
 autocmd BufRead,BufNewFile .jshintrc setfiletype json
+
+
+" ==============================================================================
+" Custom Highlights
+" ==============================================================================
+
+highlight! MarkologyHLLine guibg=#32302f ctermbg=236
+highlight! MarkologyHLl guifg=#191919 ctermfg=235 guibg=#427b58 ctermbg=66
+highlight! MarkologyHLu guifg=#191919 ctermfg=235 guibg=#79740e ctermbg=100
+highlight! MarkologyHLo guifg=#191919 ctermfg=235 guibg=#427b58 ctermbg=66
+highlight! MarkologyHLm guifg=#191919 ctermfg=235 guibg=#427b58 ctermbg=66
