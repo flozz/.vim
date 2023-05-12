@@ -24,6 +24,12 @@ set hlsearch
 " Enable mouse support in terminal
 set mouse=a
 
+" Remove timeout that slowdown VIM editing in CLI
+set ttimeoutlen=0
+
+" Change the terminal title to the currently edited document
+set title
+
 
 " ==============================================================================
 " Theme / UI
@@ -56,9 +62,6 @@ set number
 let &t_EI = "\<Esc>[1 q"
 let &t_SI = "\<Esc>[5 q"
 let &t_SR = "\<Esc>[3 q"
-
-" Remove timeout that slowdown VIM editing in CLI
-set ttimeoutlen=0
 
 
 " ==============================================================================
