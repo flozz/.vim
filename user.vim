@@ -2,7 +2,10 @@
 " Misc
 " ==============================================================================
 
-" Enamble modeline
+" Enable syntax highlighting
+syntax on
+
+" Enable modeline
 set modeline
 
 " Use system clipboard as default register
