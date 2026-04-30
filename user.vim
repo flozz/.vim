@@ -171,6 +171,7 @@ nmap <Leader>l :lopen<Cr>
 " Text
 autocmd FileType markdown,text,rst,gemtext setlocal list
 autocmd FileType markdown,text,rst,gemtext setlocal wrap linebreak
+autocmd FileType markdown,text,rst,gemtext setlocal conceallevel=0
 autocmd FileType markdown,text,rst nnoremap <buffer> <c-f> gqip
 autocmd FileType markdown,text,rst vnoremap <buffer> <c-f> gq
 "autocmd FileType markdown,text,rst inoremap <buffer> <c-f> <esc>gqipA
