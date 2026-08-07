@@ -35,6 +35,8 @@ Plug 'Shougo/vinarise.vim'
 " Undo history visualizer for VIM (gundo replacement)
 Plug 'mbbill/undotree'
 
+" Grammalecte French grammar checker
+Plug 'dpelle/vim-Grammalecte'
 
 " ==============================================================================
 " Git
