@@ -6,6 +6,7 @@ let g:grammalecte_disable_rules .= " tab_début_ligne"
 let g:grammalecte_disable_rules .= " esp_début_ligne"
 let g:grammalecte_disable_rules .= " typo_guillemets_typographiques_doubles_ouvrants"
 let g:grammalecte_disable_rules .= " typo_guillemets_typographiques_doubles_fermants"
+let g:grammalecte_disable_rules .= " typo_guillemets_typographiques_simples_fermants"
 let g:grammalecte_disable_rules .= " typo_points_suspension1"
 
 " reStructuredText
